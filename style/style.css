@@ -168,6 +168,7 @@ button {
     color: rosybrown;
     font-size: 20px;
     margin: 2em 0 8em 0;
+    transition: ease-in-out 2s;
 }
 .news {
     max-width: 80%;
@@ -258,4 +259,10 @@ footer {
     padding: 2em 0;
     text-align: center;
     align-items: center;
+}
+.hover:hover {
+    cursor: pointer;
+    width: 500px;
+    height: 500px;
+    transition: ease-in-out 2s;
 }
