@@ -43,24 +43,24 @@ figcaption {
     line-height: 1.8rem;
     margin: -.5rem 0 1.2em 0;
 }
-.social-media {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 3rem;
-}
-.social-media > img {
-    width: 40px;
-    height: 50px;
-}
-.icon-box {
-    width: 40px;
-    height: 50px;
-    color: white;
+.icons {
+    font-size: 3em;
+    margin-top: 9px;
 }
 .icon {
-    width: 100px;
-    height: 50px;
-    font-size: 3em;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.icon-box {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    display: inline-block;
+    transition: .4s ease-in-out;
+    margin-left: 16px;
 }
 .collab-container {
     display: flex;
@@ -265,4 +265,8 @@ footer {
     width: 500px;
     height: 500px;
     transition: ease-in-out 2s;
+}
+.icon-box:hover {
+    cursor: pointer;
+    color: cyan;
 }
